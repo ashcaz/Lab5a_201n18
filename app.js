@@ -29,6 +29,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 
+}
+
+
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
 
@@ -66,6 +69,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 var testArray = [2, 3, 4]; //eslint-disable-line
+
+function sumArray(sumArr) { //eslint-disable-line
+  
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -86,7 +92,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+  
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
