@@ -51,6 +51,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+  var sum1 = sum(a,b);
+//   console.log(sum1);
+  var sum2 = sum(sum1[0],c);
+//   console.log(sum2);
+  var finalSum = sum2[0];
+//   console.log(finalSum);
+  var product1 = multiply(a,b);
+  var product2 = multiply(product1[0],c);
+  var finalProduct = product2[0];
+  return [finalSum, finalProduct, a + ' and ' + b + ' and ' + c + ' sum to ' + finalSum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + finalProduct + '.'];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
