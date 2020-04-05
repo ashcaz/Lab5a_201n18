@@ -28,9 +28,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-  var product = a * b;
-  return [product, 'The product of ' + a + ' and ' + b + ' is ' + product + '.'];
+
 }
+
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
@@ -50,16 +50,6 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-  var sum1 = sum(a,b);
-//   console.log(sum1);
-  var sum2 = sum(sum1[0],c);
-//   console.log(sum2);
-  var finalSum = sum2[0];
-//   console.log(finalSum);
-  var product1 = multiply(a,b);
-  var product2 = multiply(product1[0],c);
-  var finalProduct = product2[0];
-  return [finalSum, finalProduct, a + ' and ' + b + ' and ' + c + ' sum to ' + finalSum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + finalProduct + '.'];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -81,13 +71,7 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-  var sum1 = sum(sumArr[0],sumArr[1]);
-//   console.log(sum1[0]);
-  var sum2 = sum(sum1[0],sumArr[2]);
-//   console.log(sum2[0]);
-  var finalSum = sum2[0];
-//   console.log(finalSum);
-  return [finalSum,sumArr[0] + ',' + sumArr[1] + ',' + sumArr[2] + ' was passed in as an array of numbers, and ' + finalSum + ' is their sum.'];
+  
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -108,19 +92,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-  var product1 = multiply(multArr[0],multArr[1]);
-//   console.log(product1[0]);
-  var product2 = multiply(product1[0],multArr[2]);
-//   console.log(product2[0]);
-  var finalProduct = product2[0];
-//   console.log(finalProduct);
-  return [finalProduct,'The numbers ' + multArr[0] + ',' + multArr[1] + ',' + multArr[2] + ' have a product of ' + finalProduct + '.'];
+  
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
 
-// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
+// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
 // You're done! Submit the link to the repo following the instructions in Canvas. Or, try out the stretch goal below...
 
